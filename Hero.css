@@ -1,0 +1,55 @@
+.hero {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.hero .left-section {
+  flex-grow: 1;
+}
+
+.hero .left-section .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid darkorange;
+}
+
+.hero .left-section h6{
+  color: var(--blue);
+  font-size: 17px;
+  padding-top:20px ;
+}
+
+.hero .left-section h4{
+  color: var(--title);
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.hero .left-section h1{
+  font-size: 2.70rem;
+  margin: 10px 0;
+  color: var(--title);
+}
+
+.hero .left-section p {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  margin-bottom: 32px;
+}
+
+.hero .left-section .all-icons{
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  color: var(--subtitle);
+}
+
+.hero .left-section .all-icons .icon:hover{
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color: var(--icon-hover);
+}
